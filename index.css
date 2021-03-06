@@ -1,0 +1,61 @@
+.root {
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__list {
+  margin: 0 20px 0 0;
+  transition: .2s;
+}
+
+.header__list:hover {
+  opacity: .8;
+}
+
+.header__list:last-child {
+  margin: 0;
+}
+
+.header__social-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.slider {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.slider__buttons {
+  padding: 15px 10px;
+  border: black 1px solid;
+  position: relative;
+}
+
+.slider__badge {
+  background-color: white;
+  width: 50px;
+  padding: 0 0 0 2px;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+}
